@@ -439,6 +439,10 @@ h3{
     padding: 25px 0;
     opacity: 0;
     transition: .8s all;
+    -webkit-transition: .8s all;
+    -moz-transition: .8s all;
+    -o-transition: .8s all;
+    -ms-transition: .8s all;
 }
 .hover-info h4{
     text-transform: uppercase;
@@ -816,6 +820,10 @@ footer{
     right: 0;
     height: 100%;
     transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    -ms-transition: .3s linear;
 }
 .contact-wrapper:hover:after{
     width: 100%;
@@ -823,9 +831,17 @@ footer{
 }
 .contact-wrapper a svg{
     transition: .3s linear;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    -ms-transition: .3s linear;
 }
 .contact-wrapper:hover a svg{
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
 }
 .contact-us-link{
     display: flex;
