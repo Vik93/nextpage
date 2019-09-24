@@ -1171,6 +1171,9 @@ section.section.footer-section:hover .torus-our-team{
     .we-do-wrapper h3 {
         margin: 0;
     }
+    .up-block {
+        margin-top: 0;
+    }
 }
 @media screen and (max-width: 992px) and (orientation: landscape){
     h1 {
@@ -1307,6 +1310,7 @@ section.section.footer-section:hover .torus-our-team{
         justify-content: center;
         display: flex;
         max-width: inherit;
+        width: 100%;
     }
     .tab-content>.tab-pane{
         position: relative;
