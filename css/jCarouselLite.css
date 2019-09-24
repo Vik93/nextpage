@@ -1,0 +1,90 @@
+.gallery-wrapper{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 110px auto 150px;
+    max-width: 1500px;
+    position: relative;
+}
+.gallery-wrapper .prev,
+.gallery-wrapper .next{
+    height: fit-content;
+    background: no-repeat;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: #161415;
+    padding: 22px;
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    margin: auto 0;
+}
+.gallery-wrapper .prev:focus,
+.gallery-wrapper .next:focus{
+    outline: none;
+}
+.gallery-wrapper .prev:hover,
+.gallery-wrapper .next:hover{
+    background: #D2132A;
+    color: #fff;
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+}
+.gallery-wrapper .prev{
+    left: 50px;
+}
+.gallery-wrapper .next{
+    right: 50px;
+}
+.gallery{
+    margin: 0 auto;
+}
+.gallery ul{
+    list-style-type: none;
+    padding: 0;
+}
+.gallery ul li{
+    border-radius: 10px;
+    margin: 0 5px;
+    position: relative;
+}
+.gallery ul li:hover .hover-carousel-background{
+    opacity: .9;
+    transform: rotate(360deg);
+}
+.hover-carousel-background{
+    background: linear-gradient(307.1deg, rgba(177, 2, 23, 0.9) 10.23%, rgba(221, 4, 31, 0.9) 69.59%);
+    height: inherit;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transform: rotate(0deg);
+    transition: .5s all;
+}
+.hover-carousel-background h4{
+    font-family: ArchivoBlack;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.428571px;
+    text-transform: uppercase;
+
+}
+.hover-carousel-background p{
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+}

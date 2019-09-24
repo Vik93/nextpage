@@ -1,0 +1,17 @@
+{
+  "name": "nextpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thebestsheva@ukr.net",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1",
+    "scrollmagic": "^2.0.7"
+  }
+}
